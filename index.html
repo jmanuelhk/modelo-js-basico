@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="text/javascript" src="./js/js-avanzado.js"></script>
+    <script type="text/javascript" src="./js/js-basico.js"></script>
+
+    <title>EJERCICIOS DE CLASE</title>
+</head>
+
+<body>
+
+
+    <header class="container-fluid black parallax">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand">DISEÑO | EJERCICIOS </a>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">INICIO<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Primer Parcial
+						</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#js-basico">JS Basico</a>
+                            <a class="dropdown-item" href="#js-avanzado">JS Avanzado</a>
+                            <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a> -->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+            <div class="jumbotron my-auto text-center">
+                <h1 class="display-3">Programación Web</h1>
+                <p class="lead">Ejercicios de ejemplo del primer parcial</p>
+                <hr class="my-2">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">JavaScript Básico</h5>
+                                    <p class="card-text">En esta seccion se veran los temas de variables, operadores, estructuras de control basicos.
+                                        <b>No olviden leer los capitulos de la pagina de internet</b>
+                                    </p>
+                                    <a href="#js-basico" class="btn btn-primary">Ir a sitio</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">JavaScript Avanzado</h5>
+                                    <p class="card-text">JavaScript basico permiten crear scripts sencillos y de mediana complejidad. Sin embargo, para las aplicaciones más complejas son necesarios otros elementos como las funciones y otras estructuras de control más avanzadas
+                                    </p>
+                                    <a href="#js-avanzado" class="btn btn-primary">Ir a sitio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- =================== SECCION DONDE SE ENCUENTRAN LAS LLAMADAS A JS BASICO ================== -->
+    <section id="js-basico">
+        <div class="container pt-5">
+            <div class="jumbotron bb-title">
+                <h1 class="display-3">JavaScript Básico</h1>
+                <hr class="my-2">
+            </div>
+        </div>
+
+        <div class="parallax">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>
+
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Variables</h5>
+                            <p>
+                                Por tanto, las siguientes variables tienen nombres correctos:
+                            </p>
+                            <code>
+								var $numero1;<br>
+								var _$letra;<br>
+								var $$$otroNumero;<br>
+								var $_a__$4;<br>
+							</code>
+                            <p>
+                                Sin embargo, las siguientes variables tienen identificadores incorrectos:
+                            </p>
+                            <code>
+								var 1numero; // Empieza por un número<br>
+								var numero;1_123; // Contiene un carácter ";"<br>
+							</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tipo de variables</h5>
+                            <p>
+                                Aunque todas las variables de JavaScript se crean de la misma forma (mediante la palabra reservada var), la forma en la que se les asigna un valor depende del tipo de valor que se quiere almacenar (números, textos, etc.)
+                            </p>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/tipos-de-variables" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Operador Asignacion</h5>
+                            <p>Al presionar el valor 0 se actualizara por 50</p>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/operadores" class="btn btn-primary">Ver documentación</a>
+                            <a onclick="asignacionExample();" class="btn btn-success">Ejecutar ejemplo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Operador </h5>
+                            <h4 class="card-title">Incremento++|Decremento-- </h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <a onclick="incrementoExample();" class="btn btn-success">Ejecutar Incremento</a>
+                            <a onclick="decrementoExample();" class="btn btn-success">Ejecutar Decremento</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/operadores" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Operadores </h5>
+                            <h4 class="card-title">Logico | Negacion </h4>
+                            <p>La variable se encuentra con un valor en <code>True</code></p>
+                            <a onclick="logicExample();" class="btn btn-success">Ver Valor Logico</a>
+                            <a onclick="negacionExample();" class="btn btn-success">Ver Valor Negado</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/operadores" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Operadores </h5>
+                            <h4 class="card-title">AND | OR </h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <a onclick="andExample();" class="btn btn-success">Ejecutar AND</a>
+                            <a onclick="orExample();" class="btn btn-success">Ejecutar OR</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/operadores" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Operadores </h5>
+                            <h4 class="card-title">Matemáticos </h4>
+                            <p>tenemos las variables1 <code>var numero1 = 10</code> y <code>var numero2 = 5</code></p>
+                            <a onclick="sumaExample();" class="btn btn-success">Ejecutar SUMA</a>
+                            <a onclick="restaExample();" class="btn btn-success">Ejecutar RESTA</a><br>
+                            <a onclick="multiplicacionExample();" class="btn btn-success">Ejecutar
+								MULTIPLICACION</a><br>
+                            <a onclick="divicionExample();" class="btn btn-success">Ejecutar DIVICION</a><br>
+                            <a onclick="moduloExample();" class="btn btn-success">Ejecutar MODULO</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/operadores" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Operadores </h5>
+                            <h4 class="card-title">Relacionales </h4>
+                            <p>Los operadores relacionales definidos por JavaScript son idénticos a los que definen las matemáticas: mayor que (>), menor que (
+                                <), mayor o igual (>=), menor o igual (
+                                    <=), igual que (==) y distinto de (!=). Los operadores que relacionan variables son imprescindibles para realizar cualquier aplicación compleja, como se verá en el siguiente capítulo de programación avanzada. El resultado de todos estos operadores siempre
+                                        es un valor booleano:</p>
+                                        <p><b>LEER ES IMPORTANTE</b></p>
+                                        <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/operadores" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estructura de control </h5>
+                            <h4 class="card-title">IF </h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <a onclick="ifExample();" class="btn btn-success">Ejecutar IF</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estructura de control </h5>
+                            <h4 class="card-title">IF - ELSE </h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <a onclick="ifElseExample();" class="btn btn-success">Ejecutar IF-ELSE</a><br>
+                            <a onclick="ifElseExample2();" class="btn btn-success">Ejecutar otro IF-ELSE</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estructura de control </h5>
+                            <h4 class="card-title">FOR </h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <a onclick="forExample();" class="btn btn-success">Ejecutar FOR</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo" class="btn btn-primary">Ver documentación</a>
+                            <a href="https://www.youtube.com/watch?v=ywIVQBaPRYk" class="btn btn-primary">Ver video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estructura de control </h5>
+                            <h4 class="card-title">FOR IN </h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <a onclick="forInExample();" class="btn btn-success">Ejecutar FOR IN</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== SECCION DONDE SE ENCUENTRAN LAS LLAMADAS A JS AVANZADO ================== -->
+    <section id="js-avanzado">
+        <div class="container pt-5">
+            <div class="jumbotron bb-title">
+                <h1 class="display-3">JavaScript Avanzado</h1>
+                <hr class="my-2">
+            </div>
+        </div>
+
+        <div class="container p-5">
+            <div class="row">
+
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">FUNCIONES</h5>
+                            <p>
+                                Las funciones son la solución a todos estos problemas, tanto en JavaScript como en el resto de lenguajes de programación. Una función es un conjunto de instrucciones que se agrupan para realizar una tarea concreta y que se pueden reutilizar fácilmente.
+                            </p>
+                            <code>
+								function nombre_funcion() {<br>
+								...<br>
+								}<br>
+							</code>
+                            <p>Recuerden que las funciones han sido la base de los ejemplos de clase *<b>revisar los archivos de la carpeta JS</b>*</p>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-4/funciones" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">FUNCIONES</h5>
+                            <h4 class="card-title">Argumentos y valores de retorno</h4>
+                            <p>Las variables que necesitan las funciones se llaman argumentos. Antes de que pueda utilizarlos, la función debe indicar cuántos argumentos necesita y cuál es el nombre de cada argumento.</p>
+                            <p>Los argumentos se indican dentro de los paréntesis que van detrás del nombre de la función y se separan con una coma (,).
+                            </p>
+                            <code>
+								function suma_y_muestra(primerNumero, segundoNumero) { ... }
+							</code><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-4/funciones" class="btn btn-primary">Ver documentación</a>
+                            <a onclick="funcionArgumentoExample(10,40);" class="btn btn-success">Ejecutar FUNCION</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ámbito de las variables</h5>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <a onclick="scopeExample();" class="btn btn-success">Ejecutar SCOPE</a>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-4/ambito-de-las-variables" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sentencias</h5>
+                            <h4 class="card-title">break y continue </h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <a onclick="breakExample();" class="btn btn-success">Ejecutar Break</a>
+                            <a onclick="continueExample();" class="btn btn-success">Ejecutar Continue</a>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-4/sentencias-break-y-continue" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estructuras de control </h5>
+                            <h4 class="card-title">WHILE</h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <br>
+                            <p>El funcionamiento del bucle while se resume en: "mientras se cumpla la condición indicada, repite indefinidamente las instrucciones incluidas dentro del bucle".</p>
+                            <a onclick="whileExample();" class="btn btn-success">Ejecutar WHILE</a>
+                            <a href="https://www.youtube.com/watch?v=cuFSVjo9oi0" class="btn btn-success">VER VIDEO REPASO</a><br>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-4/otras-estructuras-de-control" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estructuras de control </h5>
+                            <h4 class="card-title">DO...WHILE </h4>
+                            <p>Presionar la tecla F12 Esto para ver valore en la pestaña consola</p>
+                            <br>
+                            <p>
+                                El bucle de tipo do...while es muy similar al bucle while, salvo que en este caso siempre se ejecutan las instrucciones del bucle al menos la primera vez.
+                            </p>
+                            <a onclick="doWhileExample();" class="btn btn-success">Ejecutar DO..WHILE</a>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-4/otras-estructuras-de-control" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estructuras de control </h5>
+                            <h4 class="card-title">SWITCH </h4>
+                            <a onclick="switchExample('Martes');" class="btn btn-success">Ejecutar SWITCH</a>
+                            <a onclick="switchExample('DOMINGO');" class="btn btn-success">Ejecutar CON VALOR NO DEFINIDO</a>
+                            <a href="https://uniwebsidad.com/libros/javascript/capitulo-4/otras-estructuras-de-control" class="btn btn-primary">Ver documentación</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>

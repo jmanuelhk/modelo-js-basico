@@ -1,0 +1,27 @@
+.black {
+    background-color: #252525;
+}
+
+.parallax {
+    height: auto + 50px;
+    background-image: url('../assets/javascript.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5em;
+}
+
+.card:hover {
+    background-color: #d0cece;
+}
+
+.bb-title {
+    background-image: url('../assets/title.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: auto + 50px;
+}
+
+a {
+    margin: .5em !important;
+}
